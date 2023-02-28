@@ -183,7 +183,7 @@ st.title("Prédictions d'émissions CO2")
 
 # Import donnees
 df=load_data()
-if st.checkbox('Montrer jeu de données',value=True):
+if st.checkbox('Cacher jeu de données',value=True):
     pass
 else:
     st.subheader('Jeu de données')
